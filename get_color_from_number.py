@@ -1,4 +1,4 @@
-from telecom_color_code import TelecomColorCode
+from telecom_color_coder import TelecomColorCode
 
 def calculate_major_index(pair_number):
     return (pair_number - 1) // len(TelecomColorCode.MINOR_COLORS)
