@@ -15,12 +15,15 @@ def validate_minor_index(minor_index):
         raise IndexError('Minor index out of range')
 
 def get_color_from_pair_number(pair_number):
-     """
+    """
     Returns the TelecomColorCode based on the given pair number.
+
     Args:
         pair_number (int): The pair number for which the color code needs to be determined.
+
     Returns:
         TelecomColorCode: The color code corresponding to the given pair number.
+
     Raises:
         ValueError: If the major or minor index is invalid.
 
