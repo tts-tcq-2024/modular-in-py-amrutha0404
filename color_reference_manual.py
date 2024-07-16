@@ -1,5 +1,5 @@
 from get_color_from_number import get_color_from_pair_number
-from telecom_color_code import TelecomColorCode
+from telecom_color_coder import TelecomColorCode
 
 def generate_reference_manual():
     manual = "\n================== Color Coding Reference Manual =====================\n"
